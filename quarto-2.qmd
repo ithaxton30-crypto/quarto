@@ -1,0 +1,13 @@
+---
+title: "My Second Quarto Document"
+format: html
+---
+
+execute: echo: false
+
+```{r}
+library(tidyverse)
+#| message: false
+#| label: setup
+```
+
